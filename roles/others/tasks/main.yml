@@ -32,6 +32,12 @@
     dest: ~/.gitconfig
     state: link
 
+- name: Create Symbolic Link for .git_template
+  file:
+    src: ~/GoogleDrive/dotfiles/git_template
+    dest: ~/.git_template
+    state: link
+
 - name: Create Symbolic Link for .zshrcf
   file:
     src: ~/GoogleDrive/dotfiles/.zshrc
@@ -48,5 +54,17 @@
   file:
     src: ~/GoogleDrive/dotfiles/tmux.conf
     dest: ~/.tmux.conf
+    state: link
+
+- name: Create Symbolic Link for .vimrc
+  file:
+    src: ~/GoogleDrive/dotfiles/.vimrc
+    dest: ~/.vimrc
+    state: link
+
+- name: Create Symbolic Link for .vim
+  file:
+    src: ~/GoogleDrive/dotfiles/.vim
+    dest: ~/.vim
     state: link
 

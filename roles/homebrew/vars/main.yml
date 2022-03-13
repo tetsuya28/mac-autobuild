@@ -20,4 +20,7 @@ packages:
   - { name: ccat, state: present }
   - { name: exa, state: present }
   - { name: kubectl, state: present }
+  - { name: spaceship, state: present }
+  - { name: zinit, state: present }
+  - { name: git-delta, state: present }
 
