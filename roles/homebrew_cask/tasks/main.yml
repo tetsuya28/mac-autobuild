@@ -1,5 +1,6 @@
 - block:
     - name: Install cask packages
+      ignore_errors: true
       homebrew_cask: name={{ item.name }}
         state={{ item.state | default('present') }}
       with_items:

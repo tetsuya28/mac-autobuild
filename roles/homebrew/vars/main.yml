@@ -19,3 +19,5 @@ packages:
   - { name: vim, state: present }
   - { name: ccat, state: present }
   - { name: exa, state: present }
+  - { name: kubectl, state: present }
+

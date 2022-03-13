@@ -59,3 +59,6 @@ settings:
   - { domain: com.apple.screencapture, key: include-date, type: int, value: 0 } 
   # MissionControlでデスクトップの順番が入れ替わるの禁止
   - { domain: com.apple.dock, key: mru-spaces, type: bool, value: FALSE}
+  # ライブ変換無効化
+  - { domain: com.apple.inputmethod.Kotoeri, key: JIMPrefLiveConversionKey, type: bool, value: FALSE}
+

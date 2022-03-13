@@ -4,5 +4,5 @@
     - role: homebrew
     - role: homebrew_cask
     - role: macos
-    - role: fonts
+    # - role: fonts
     - role: others

@@ -4,3 +4,9 @@ homebrew_cask_packages:
   - { name: alfred }
   - { name: slack }
   - { name: google-chrome }
+  - { name: google-drive }
+  - { name: karabiner-elements }
+  - { name: iterm2 }
+  - { name: meetingbar }
+  - { name: visual-studio-code }
+
