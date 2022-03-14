@@ -25,4 +25,5 @@ packages:
   - { name: git-delta, state: present }
   - { name: ghq, state: present }
   - { name: google-cloud-sdk, state: present }
+  - { name: asdf, state: present }
 
