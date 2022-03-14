@@ -23,4 +23,5 @@ packages:
   - { name: spaceship, state: present }
   - { name: zinit, state: present }
   - { name: git-delta, state: present }
+  - { name: ghq, state: present }
 
