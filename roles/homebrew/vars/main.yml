@@ -24,4 +24,5 @@ packages:
   - { name: zinit, state: present }
   - { name: git-delta, state: present }
   - { name: ghq, state: present }
+  - { name: google-cloud-sdk, state: present }
 
