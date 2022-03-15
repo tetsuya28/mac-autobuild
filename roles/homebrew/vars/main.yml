@@ -26,4 +26,5 @@ packages:
   - { name: ghq, state: present }
   - { name: google-cloud-sdk, state: present }
   - { name: asdf, state: present }
+  - { name: kustomize, state: present }
 
