@@ -27,4 +27,5 @@ packages:
   - { name: google-cloud-sdk, state: present }
   - { name: asdf, state: present }
   - { name: kustomize, state: present }
+  - { name: helm, state: present }
 
