@@ -61,4 +61,8 @@ settings:
   - { domain: com.apple.dock, key: mru-spaces, type: bool, value: FALSE}
   # ライブ変換無効化
   - { domain: com.apple.inputmethod.Kotoeri, key: JIMPrefLiveConversionKey, type: bool, value: FALSE}
+  # VSCode 連打
+  - { domain: com.microsoft.VSCode, key: ApplePressAndHoldEnabled, type: bool, value: FALSE}
+  # VSCode 連打
+  - { domain: com.microsoft.VSCodeInsiders, key: ApplePressAndHoldEnabled, type: bool, value: FALSE}
 
