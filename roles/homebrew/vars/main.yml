@@ -29,4 +29,5 @@ packages:
   - { name: kustomize, state: present }
   - { name: helm, state: present }
   - { name: stern, state: present }
+  - { name: kubectx, state: present }
 
