@@ -28,4 +28,5 @@ packages:
   - { name: asdf, state: present }
   - { name: kustomize, state: present }
   - { name: helm, state: present }
+  - { name: stern, state: present }
 
