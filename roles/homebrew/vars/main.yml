@@ -30,4 +30,5 @@ packages:
   - { name: helm, state: present }
   - { name: stern, state: present }
   - { name: kubectx, state: present }
+  - { name: bufbuild/buf/buf, state: present }
 
