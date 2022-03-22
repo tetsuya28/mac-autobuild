@@ -32,4 +32,5 @@ packages:
   - { name: kubectx, state: present }
   - { name: bufbuild/buf/buf, state: present }
   - { name: mysql-client, state: present }
+  - { name: watch, state: present }
 
