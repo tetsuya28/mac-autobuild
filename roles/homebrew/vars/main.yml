@@ -31,4 +31,5 @@ packages:
   - { name: stern, state: present }
   - { name: kubectx, state: present }
   - { name: bufbuild/buf/buf, state: present }
+  - { name: mysql-client, state: present }
 
