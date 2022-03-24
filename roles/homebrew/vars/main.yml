@@ -33,4 +33,5 @@ packages:
   - { name: bufbuild/buf/buf, state: present }
   - { name: mysql-client, state: present }
   - { name: watch, state: present }
+  - { name: helm, state: present }
 
