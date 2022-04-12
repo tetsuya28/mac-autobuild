@@ -35,4 +35,5 @@ packages:
   - { name: mysql, state: present }
   - { name: watch, state: present }
   - { name: helm, state: present }
+  - { name: jo, state: present }
 
