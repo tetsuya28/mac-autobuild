@@ -36,4 +36,5 @@ packages:
   - { name: watch, state: present }
   - { name: helm, state: present }
   - { name: jo, state: present }
+  - { name: yamllint, state: present }
 
