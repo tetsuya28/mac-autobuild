@@ -38,4 +38,5 @@ packages:
   - { name: jo, state: present }
   - { name: yamllint, state: present }
   - { name: opa, state: present }
+  - { name: conftest, state: present }
 
