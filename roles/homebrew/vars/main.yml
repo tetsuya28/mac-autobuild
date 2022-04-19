@@ -37,4 +37,5 @@ packages:
   - { name: helm, state: present }
   - { name: jo, state: present }
   - { name: yamllint, state: present }
+  - { name: opa, state: present }
 
