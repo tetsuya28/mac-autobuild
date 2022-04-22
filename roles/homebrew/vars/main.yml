@@ -39,4 +39,5 @@ packages:
   - { name: yamllint, state: present }
   - { name: opa, state: present }
   - { name: conftest, state: present }
+  - { name: golang-migrate, state: present }
 
