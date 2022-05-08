@@ -9,4 +9,5 @@ homebrew_cask_packages:
   - { name: iterm2 }
   - { name: meetingbar }
   - { name: visual-studio-code }
+  - { name: homebrew/cask-versions/sequel-pro-nightly }
 
