@@ -40,4 +40,5 @@ packages:
   - { name: opa, state: present }
   - { name: conftest, state: present }
   - { name: golang-migrate, state: present }
+  - { name: clang-format, state: present }
 
