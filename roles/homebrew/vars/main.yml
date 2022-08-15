@@ -41,4 +41,5 @@ packages:
   - { name: conftest, state: present }
   - { name: golang-migrate, state: present }
   - { name: clang-format, state: present }
+  - { name: gh, state: present }
 
