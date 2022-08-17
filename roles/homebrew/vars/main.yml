@@ -42,4 +42,5 @@ packages:
   - { name: golang-migrate, state: present }
   - { name: clang-format, state: present }
   - { name: gh, state: present }
+  - { name: circleci, state: present }
 
