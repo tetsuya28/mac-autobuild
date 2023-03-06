@@ -43,4 +43,4 @@ packages:
   - { name: clang-format, state: present }
   - { name: gh, state: present }
   - { name: circleci, state: present }
-
+  - { name: nkf, state: present }
