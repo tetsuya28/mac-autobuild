@@ -43,7 +43,7 @@ settings:
   - { domain: com.apple.screensaver, key: askForPassword, type: int, value: 1}
   - { domain: com.apple.screensaver, key: askForPasswordDelay, type: int, value: 0}
   # バッテリーを%表示
-  - { domain: com.apple.menuextra.battery, key: ShowPercent, type: string, value: YES }
+  - { domain: com.apple.controlcenter.plist, key: BatteryShowPercentage, type: bool, value: TRUE }
   # ダッシュボードの無効化 
   - { domain: com.apple.dashboard, key: mcx-disabled, type: bool, value: TRUE}
   # 自動で大文字化する機能無効化
@@ -63,8 +63,6 @@ settings:
   - { domain: com.apple.dock, key: mru-spaces, type: bool, value: FALSE}
   # ライブ変換無効化
   - { domain: com.apple.inputmethod.Kotoeri, key: JIMPrefLiveConversionKey, type: bool, value: FALSE}
-  # VSCode 連打
-  - { domain: com.microsoft.VSCode, key: ApplePressAndHoldEnabled, type: bool, value: FALSE}
-  # VSCode 連打
-  - { domain: com.microsoft.VSCodeInsiders, key: ApplePressAndHoldEnabled, type: bool, value: FALSE}
-
+  # キーのリピート間隔調整
+  - { domain: NSGlobalDomain, key: InitialKeyRepeat, type: int, value: 10}
+  - { domain: NSGlobalDomain, key: KeyRepeat, type: int, value: 1}

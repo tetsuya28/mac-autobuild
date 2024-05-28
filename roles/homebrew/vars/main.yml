@@ -4,6 +4,7 @@ taps:
 
 packages:
   - { name: awscli, state: present }
+  - { name: gpg, state: present }
   - { name: jq, state: present }
   - { name: mas, state: present } # mas-cli(mac apple store)
   - { name: tree, state: present }
@@ -12,13 +13,11 @@ packages:
   - { name: wget, state: present }
   - { name: peco, state: present }
   - { name: zsh, state: present }
-  - { name: docker, state: present }
   - { name: docker-compose, state: present }
   - { name: k9s, state: present }
-  - { name: tmux, state: present }
   - { name: vim, state: present }
+  - { name: nvim, state: present }
   - { name: ccat, state: present }
-  - { name: exa, state: present }
   - { name: kubectl, state: present }
   - { name: spaceship, state: present }
   - { name: zinit, state: present }
@@ -29,8 +28,6 @@ packages:
   - { name: kustomize, state: present }
   - { name: helm, state: present }
   - { name: stern, state: present }
-  - { name: kubectx, state: present }
-  - { name: bufbuild/buf/buf, state: present }
   - { name: mysql-client, state: present }
   - { name: mysql, state: present }
   - { name: watch, state: present }
@@ -44,3 +41,4 @@ packages:
   - { name: gh, state: present }
   - { name: circleci, state: present }
   - { name: nkf, state: present }
+  - { name: lsd, state: present }
