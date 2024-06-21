@@ -10,3 +10,4 @@ homebrew_cask_packages:
   - { name: notion }
   - { name: notion-calendar }
   - { name: line }
+  - { name: 1password }

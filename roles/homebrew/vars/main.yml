@@ -42,3 +42,8 @@ packages:
   - { name: circleci, state: present }
   - { name: nkf, state: present }
   - { name: lsd, state: present }
+  - { name: gopls, state: present }
+  - { name: bufbuild/buf/buf, state: present }
+  - { name: kubectx, state: present }
+  - { name: terraform-docs, state: present }
+  - { name: java, state: present }
