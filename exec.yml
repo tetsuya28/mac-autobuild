@@ -1,0 +1,6 @@
+- hosts: localhost
+  connection: local
+  roles:
+    - role: homebrew
+    - role: macos
+    - role: others

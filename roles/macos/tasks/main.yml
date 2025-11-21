@@ -1,0 +1,14 @@
+- block:
+    # check defaults
+    # $ defaults read
+    - name: set osx defaults
+      osx_defaults:
+        domain: "{{ item.domain }}"
+        key: "{{ item.key }}"
+        type: "{{ item.type }}"
+        value: "{{ item.value }}"
+      with_items: "{{ settings }}"
+
+- name: Disable Spotlight Shortcut
+  ansible.builtin.shell: /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c 'Set AppleSymbolicHotKeys:64:enabled false'
+

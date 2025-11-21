@@ -1,0 +1,61 @@
+taps:
+  - homebrew/cask
+  - trendyol/trendyol-tap
+
+packages:
+  - { name: awscli, state: present }
+  - { name: gpg, state: present }
+  - { name: jq, state: present }
+  - { name: mas, state: present } # mas-cli(mac apple store)
+  - { name: tree, state: present }
+  - { name: curl, state: present }
+  - { name: wget, state: present }
+  - { name: peco, state: present }
+  - { name: zsh, state: present }
+  - { name: docker }
+  - { name: docker-compose, state: present }
+  - { name: k9s, state: present }
+  - { name: vim, state: present }
+  - { name: nvim, state: present }
+  - { name: ccat, state: present }
+  - { name: kubectl, state: present }
+  - { name: spaceship, state: present }
+  - { name: zinit, state: present }
+  - { name: git-delta, state: present }
+  - { name: ghq, state: present }
+  - { name: google-cloud-sdk, state: present }
+  - { name: asdf, state: present }
+  - { name: kustomize, state: present }
+  - { name: helm, state: present }
+  - { name: stern, state: present }
+  - { name: mysql-client, state: present }
+  - { name: mysql, state: present }
+  - { name: watch, state: present }
+  - { name: helm, state: present }
+  - { name: jo, state: present }
+  - { name: yamllint, state: present }
+  - { name: gh, state: present }
+  - { name: lsd, state: present }
+  - { name: buf, state: present }
+  - { name: kubectx, state: present }
+  - { name: bitwarden-cli, state: present }
+  - { name: golangci-lint, state: present }
+  - { name: difftastic, state: present }
+  - { name: rectangle }
+  - { name: alfred }
+  - { name: slack }
+  - { name: google-chrome }
+  - { name: google-drive }
+  - { name: karabiner-elements }
+  - { name: wezterm }
+  - { name: notion }
+  - { name: notion-calendar }
+  - { name: 1password }
+  - { name: 1password-cli }
+  - { name: readdle-spark }
+  - { name: clickup }
+  - { name: tunnelblick }
+  - { name: postman }
+  - { name: cleanshot }
+  - { name: chatgpt }
+  - { name: ripgrep }

@@ -1,0 +1,58 @@
+- name: Delete Karabiner-Elements Default Config
+  file:
+    path: ~/.config/karabiner
+    state: absent
+
+- name: Create Symbolic Link for Karabiner-Elements
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/karabiner
+    dest: ~/.config/karabiner
+    state: link
+
+- name: Create Symbolic Link for .gitconfig
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/.gitconfig
+    dest: ~/.gitconfig
+    state: link
+
+- name: Create Symbolic Link for .git_template
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/git_template
+    dest: ~/.git_template
+    state: link
+
+- name: Create Symbolic Link for .zshrcf
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/.zshrc
+    dest: ~/.zshrc
+    state: link
+
+- name: Create Symbolic Link for .zsh.d
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/zsh.d
+    dest: ~/.zsh.d
+    state: link
+
+- name: Create Symbolic Link for .vimrc
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/.vimrc
+    dest: ~/.vimrc
+    state: link
+
+- name: Create Symbolic Link for .vim
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/.vim
+    dest: ~/.vim
+    state: link
+
+- name: Create Symbolic Link for nvim
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/nvim
+    dest: ~/.config/nvim
+    state: link
+
+- name: Create Symbolic Link for wezterm
+  file:
+    src: ~/GoogleDrive/developer/dotfiles/.wezterm.lua
+    dest: ~/.wezterm.lua
+    state: link
