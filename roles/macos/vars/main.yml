@@ -65,3 +65,5 @@ settings:
   # アイコンバーの間隔
   - { domain: NSGlobalDomain, key: NSStatusItemSpacing, type: int, value: 6 }
   - { domain: NSGlobalDomain, key: NSStatusItemSelectionPadding, type: int, value: 4 }
+  # https://x.com/shimamuraakio/status/1969673675478876236?s=46
+  - { domain: NSGlobalDomain, key: NSAutoFillHeuristicControllerEnabled, type: bool, value: FALSE }

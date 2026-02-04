@@ -47,7 +47,6 @@ packages:
   - { name: google-chrome }
   - { name: google-drive }
   - { name: karabiner-elements }
-  - { name: wezterm }
   - { name: notion }
   - { name: notion-calendar }
   - { name: 1password }
@@ -62,3 +61,4 @@ packages:
   - { name: direnv }
   - { name: serie }
   - { name: gemini-cli }
+  - { name: ghostty }
